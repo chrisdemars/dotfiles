@@ -5,8 +5,8 @@
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
-  "window.zoomLevel": 1,
-  "editor.wordWrap": "on",
+  "window.zoomLevel": 2,
+  "editor.wordWrap": "off",
   "editor.renderWhitespace": "none",
   "liveServer.settings.donotShowInfoMsg": true,
   "peacock.affectActivityBar": true,
@@ -96,9 +96,9 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "files.associations": {},
   "[json]": {},
-  "workbench.colorTheme": "Midnight Synth",
+  "workbench.colorTheme": "SynthWave '84",
+  "synthwave84.brightness": 0.45,
   "workbench.iconTheme": "material-icon-theme",
-  "prettier.tabWidth": 4,
   "notebook.kernelProviderAssociations": [],
   "files.exclude": {
     "**/.history": true,
@@ -112,7 +112,6 @@
   "prettier.jsxBracketSameLine": true,
   "prettier.jsxSingleQuote": true,
   "editor.formatOnSave": true,
-  "terminal.integrated.fontFamily": "MesloGS NF",
   "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.defaultProfile.osx": "zsh",
   "terminal.integrated.profiles.osx": {
@@ -122,5 +121,12 @@
         "-l"
       ]
     }
-  }
+  },
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "editor.accessibilitySupport": "off",
+  "explorer.confirmDelete": false,
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "workbench.editor.showTabs": true,
+  "diffEditor.codeLens": true,
+  "editor.bracketPairColorization.enabled": true
 }
