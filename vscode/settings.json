@@ -3,10 +3,11 @@
   // Insert snippets when their prefix matches. Works best when 'quickSuggestions' aren't enabled.
   "editor.tabCompletion": "on",
   "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
+    "javascript": "javascriptreact",
+    "nunjucks": "html"
   },
   "window.zoomLevel": 2,
-  "editor.wordWrap": "off",
+  "editor.wordWrap": "on",
   "editor.renderWhitespace": "none",
   "liveServer.settings.donotShowInfoMsg": true,
   "peacock.affectActivityBar": true,
@@ -69,6 +70,7 @@
   "prettier.singleQuote": true,
   "editor.fontFamily": "Fira Code",
   "editor.tabSize": 2,
+  "terminal.integrated.shell.osx": "/bin/zsh",
   // turn it off for JS and JSX, we will do this via eslint
   "[javascript]": {
     "editor.formatOnSave": true,
@@ -90,14 +92,13 @@
       "format": "compressed",
       "extensionName": ".min.css",
       "savePath": "./css"
-    },
+    }
   ],
   "workbench.startupEditor": "newUntitledFile",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "files.associations": {},
   "[json]": {},
-  "workbench.colorTheme": "SynthWave '84",
-  "synthwave84.brightness": 0.45,
+  "workbench.colorTheme": "Midnight Synth",
   "workbench.iconTheme": "material-icon-theme",
   "notebook.kernelProviderAssociations": [],
   "files.exclude": {
@@ -112,21 +113,17 @@
   "prettier.jsxBracketSameLine": true,
   "prettier.jsxSingleQuote": true,
   "editor.formatOnSave": true,
-  "terminal.external.osxExec": "iTerm.app",
-  "terminal.integrated.defaultProfile.osx": "zsh",
-  "terminal.integrated.profiles.osx": {
-    "/bin/zsh (migrated)": {
-      "path": "/bin/zsh",
-      "args": [
-        "-l"
-      ]
-    }
-  },
   "terminal.integrated.fontFamily": "MesloLGS NF",
-  "editor.accessibilitySupport": "off",
-  "explorer.confirmDelete": false,
+  "codesnap.roundedCorners": false,
+  "codesnap.showWindowControls": false,
+  "codesnap.shutterAction": "copy",
+  "codesnap.showLineNumbers": false,
+  "codesnap.transparentBackground": true,
+  "codesnap.containerPadding": "3e",
+  "codesnap.boxShadow": "",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "bracket-pair-colorizer-2.depreciation-notice": false,
-  "workbench.editor.showTabs": true,
-  "diffEditor.codeLens": true,
-  "editor.bracketPairColorization.enabled": true
+  "editor.inlineSuggest.enabled": true
 }
