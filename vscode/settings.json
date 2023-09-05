@@ -6,8 +6,7 @@
     "javascript": "javascriptreact",
     "nunjucks": "html"
   },
-  "window.zoomLevel": 2,
-  "editor.wordWrap": "on",
+  "window.zoomLevel": 1,
   "editor.renderWhitespace": "none",
   "liveServer.settings.donotShowInfoMsg": true,
   "peacock.affectActivityBar": true,
@@ -98,7 +97,7 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "files.associations": {},
   "[json]": {},
-  "workbench.colorTheme": "Midnight Synth",
+  "workbench.colorTheme": "Bearded Theme Black & Amethyst",
   "workbench.iconTheme": "material-icon-theme",
   "notebook.kernelProviderAssociations": [],
   "files.exclude": {
@@ -125,5 +124,10 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "bracket-pair-colorizer-2.depreciation-notice": false,
-  "editor.inlineSuggest.enabled": true
+  "editor.inlineSuggest.enabled": true,
+  "html.format.wrapLineLength": 80,
+  "editor.wordWrap": "wordWrapColumn",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  }
 }
