@@ -141,6 +141,16 @@ alias rebase='git rebase'
 alias merge='git merge'
 alias gc='git commit -m'
 
+# Ionic
+alias is='ionic serve'
+alias ib='ionic build'
+alias sync='ionic cap sync'
+alias ios='ionic cap open ios'
+alias droid='ionic cap open android'
+
+# Dock Spacer
+alias space="defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'; killall Dock"
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
@@ -155,3 +165,6 @@ export NVM_DIR="$HOME/.nvm"
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
+export PATH="$HOME/.diversion/bin:$PATH"
+
+eval "$(starship init zsh)"
